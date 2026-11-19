@@ -5,7 +5,7 @@
 **Autor:** Santiago Caicedo Ortiz · **ID:** U00165112
 **Examen de Big Data – Spark ML · Parte 2: clasificación multiclase**
 
-🔗 **App desplegada:** _(pega aquí la URL pública de Streamlit Community Cloud)_
+🔗 **App desplegada:** https://parcial-big-data-spark-ml.streamlit.app/
 
 ## Descripción
 Una universidad quiere identificar de forma temprana a los estudiantes en riesgo de deserción y a los que van
@@ -61,7 +61,7 @@ cada clase**, en un gráfico y una tabla.
 
 ## Cómo ejecutarla
 ### En local
-Requiere Python 3.10–3.12 y **Java 17 o 21** instalado (Spark 4).
+Requiere Python 3.10–3.12 (en Streamlit Cloud elegir **3.12**) y **Java 17 o 21** instalado (Spark 4).
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
